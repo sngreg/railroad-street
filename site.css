@@ -1,0 +1,57 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  font-family: sans-serif;
+  overflow: hidden;
+}
+
+.header-section {
+  padding: 20px 20px 0;
+  width: 20%;
+  float: left;
+  background-color: #ddd;
+  text-align: center;
+  height: 100%;
+  box-sizing: border-box;
+}
+
+.header-section p {
+  font-size: 17px;
+}
+
+.content-section {
+  float: left;
+  width: 80%;
+  box-sizing: border-box;
+}
+
+.content-section h2 {
+  text-align: center;
+  background-color: #ddd;
+  padding: 20px 0;
+  font-size: 30px;
+  margin: 0;
+}
+
+.tenant-list {
+  width: 50%;
+  float: left;
+  display: block;
+  box-sizing: border-box;
+  padding: 20px 50px 0;
+  height: 100%;
+  margin-top: 0;
+}
+
+.tenant-list + .tenant-list {
+  border-left: 1px solid #ccc;
+}
+
+.tenant-list li {
+  list-style-type: none;
+  padding: 5px 0;
+}
+
+.tenant-list li span {
+  float: right;
+}
